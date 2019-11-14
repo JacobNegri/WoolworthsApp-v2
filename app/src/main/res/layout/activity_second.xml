@@ -17,7 +17,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:id="@+id/bankcardId"
@@ -55,8 +55,8 @@
                     android:textColor="@android:color/darker_gray"/>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -78,7 +78,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Ideas"/>
+                    android:text="Market Update"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -93,7 +93,7 @@
                     android:textColor="@android:color/darker_gray"/>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
     <LinearLayout
@@ -102,7 +102,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -124,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Add"/>
+                    android:text="Pine Valley"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -139,8 +139,8 @@
                     android:textColor="@android:color/darker_gray"/>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -164,7 +164,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Links"
+                    android:text="Schedule"
                     android:textStyle="bold" />
 
                 <View
@@ -182,7 +182,7 @@
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
     <LinearLayout
@@ -191,7 +191,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="340dp"
@@ -214,7 +214,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Add"/>
+                    android:text="Contacts"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -224,12 +224,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Contact List"
+                    android:text="DC and Buyers Contact List"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
     </LinearLayout>
