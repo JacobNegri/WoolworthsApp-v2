@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">WoolworthsApp</string>
+
+    <string-array name="Fruit_Description">
+        <item></item>
+
+    </string-array>
 </resources>
