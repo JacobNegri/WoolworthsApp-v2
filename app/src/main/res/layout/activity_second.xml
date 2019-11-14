@@ -18,9 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <androidx.cardview.widget.CardView
+            android:id="@+id/profitloss_card"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:id="@+id/profitloss_card"
             android:layout_width="160dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
@@ -57,9 +57,9 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/marketupdate_card"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
-            android:id="@+id/marketupdate_card"
             android:layout_width="160dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
