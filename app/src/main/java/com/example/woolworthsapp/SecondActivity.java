@@ -16,11 +16,11 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        contactcard = (CardView) findViewById(R.id.contactscard);
-        floralcard = (CardView) findViewById(R.id.floralcard);
-        profitlosscard = (CardView) findViewById(R.id.profitlosscard);
-        schedulecard = (CardView) findViewById(R.id.plannercard);
-        supplycard = (CardView) findViewById(R.id.marketupdatecard);
+        contactcard = (CardView) findViewById(R.id.contacts_card);
+        floralcard = (CardView) findViewById(R.id.floral_card);
+        profitlosscard = (CardView) findViewById(R.id.profitloss_card);
+        schedulecard = (CardView) findViewById(R.id.planner_card);
+        supplycard = (CardView) findViewById(R.id.marketupdate_card);
 
         contactcard.setOnClickListener(this);
         floralcard.setOnClickListener(this);
@@ -34,11 +34,11 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         Intent i ;
 
         switch (v.getId()) {
-            case R.id.contactscard : i = new Intent(this,ContactsActivity.class); break;
-            case R.id.floralcard : i = new Intent(this,FloralActivity.class); break;
-            case R.id.profitlosscard : i = new Intent(this,ProfitLossActivity.class); break;
-            case R.id.plannercard : i = new Intent(this,ScheduleActivity.class); break;
-            case R.id.marketupdatecard : i = new Intent(this,SupplyActivity.class); break;
+            case R.id.contacts_card : i = new Intent(this,ContactsActivity.class);startActivity(i); break;
+            case R.id.floral_card : i = new Intent(this,FloralActivity.class);startActivity(i); break;
+            case R.id.profitloss_card : i = new Intent(this,ProfitLossActivity.class);startActivity(i); break;
+            case R.id.planner_card : i = new Intent(this,ScheduleActivity.class);startActivity(i); break;
+            case R.id.marketupdate_card : i = new Intent(this,SupplyActivity.class);startActivity(i); break;
             default:break;
         }
     }

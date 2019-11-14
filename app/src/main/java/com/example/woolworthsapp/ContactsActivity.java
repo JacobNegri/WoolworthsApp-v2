@@ -14,7 +14,7 @@ public class ContactsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contacts);
 
-        configureBackButton();
+        //configureBackButton();
     }
 
     private void configureBackButton(){
