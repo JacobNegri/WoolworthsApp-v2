@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class SupplyActivity extends AppCompatActivity {
 
     @Override
-    protected void onCrete(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.supply);
 
