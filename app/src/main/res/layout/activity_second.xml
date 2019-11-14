@@ -164,7 +164,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Schedule"
+                    android:text="Planner"
                     android:textStyle="bold" />
 
                 <View
@@ -178,7 +178,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Current Delivery Times"
+                    android:text="Current available Planner"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
