@@ -33,7 +33,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/circlepurple"
-                    android:src="@drawable/sale"
+                    android:src="@drawable/sales"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"

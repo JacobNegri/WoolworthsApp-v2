@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Actual3">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/comingsoon"
+        android:scaleX=".7"
+        android:scaleY=".9"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
