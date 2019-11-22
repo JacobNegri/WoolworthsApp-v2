@@ -35,11 +35,11 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         Intent i ;
 
         switch (v.getId()) {
-            case R.id.profitloss_card : i = new Intent(this,ProfitLossActivity.class);startActivity(i); break;
-            case R.id.marketupdate_card : i = new Intent(this,SupplyActivity.class);startActivity(i); break;
-            case R.id.floral_card : i = new Intent(this,FloralActivity.class);startActivity(i); break;
-            case R.id.planner_card : i = new Intent(this,ScheduleActivity.class);startActivity(i); break;
-            case R.id.contacts_card : i = new Intent(this,ContactsActivity.class);startActivity(i); break;
+            case R.id.profitloss_card : i = new Intent(this,Actual1.class);startActivity(i); break;
+            case R.id.marketupdate_card : i = new Intent(this,Actual2.class);startActivity(i); break;
+            case R.id.floral_card : i = new Intent(this,Actual3.class);startActivity(i); break;
+            case R.id.planner_card : i = new Intent(this,Actual4.class);startActivity(i); break;
+            case R.id.contacts_card : i = new Intent(this,Actual5.class);startActivity(i); break;
             default:break;
         }
     }
